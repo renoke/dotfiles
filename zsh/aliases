@@ -1,0 +1,67 @@
+# One letter
+alias g="git status"
+alias d='mate ~/bin/dotfiles'
+alias l='ls -lAh'
+alias m='mate . &'
+alias z='cd ~/Development/zena/zena'
+alias t='cd ~/Downloads'              #Téléchargements
+alias h='history'
+
+# Shell
+alias ls='ls -F'
+alias ll='ls -l'
+alias rm="rm -i"
+alias safari='open -a Safari'
+alias oi='open -a Safari index.html'
+
+alias _='sudo '
+alias sgem='sudo gem'
+
+# ruby
+alias irb='irb --simple-prompt'
+
+# scala
+alias scala='/Users/Renaud/Applications/scala/bin/scala'
+
+
+# Zena
+alias zo='mate -w README bricks locale spec Capfile Rakefile Gemfile Gemfile.lock config test DEVELOPERS TODO db public app lib sites TODO_ZENA_1_0 doc script vendor/TextMate vendor/apache_upload vendor/bricks vendor/gems vendor/plugins vendor/rails_patches'
+alias zt='rake zena:test'
+alias zf='rake zena:build_fixtures db:fixtures:load'
+
+# Clients
+alias oic='cd ~/DropBox/clients/oic/'
+
+# Git
+alias gc='git commit'
+alias gco='git ckeckout'
+alias gb='git branch'
+alias gp='git pull'
+
+# Rails
+alias ro='mate -w README locale spec Capfile Rakefile Gemfile Gemfile.lock config test DEVELOPERS TODO db public app lib sites doc script vendor'
+alias ss='./script/server'
+alias ssp='./script/server -e production'
+alias sc='./script/console'
+alias sg='./script/generate'
+alias sa='./script/about'
+alias sp='./script/plugin'
+alias ts='thin --stats "/thin/stats" start'
+alias tlog='tail -f log/development'
+alias migrate='rake db:migrate db:test:clone db:fixtures:load'
+alias fixture='rake db:fixtures:load'
+alias reset='rake db:migrate:reset'
+
+# Postgresql
+alias start_pg='sudo launchctl stop org.postgresql.postmaster'
+alias stop_pg='sudo launchctl start org.postgresql.postmaster'
+
+# Nginx
+alias start_nginx='sudo /usr/local/sbin/nginx'
+alias stop_nginx='sudo /usr/local/sbin/nginx -s stop'
+alias reload_nginx='suod /usr/local/sbin/nginx -s relaod'
+
+# Divers
+alias slice='ssh renoke@174.143.24.252'
+alias repl='java -cp /Users/Renaud/Applications/clojure/clojure/clojure.jar clojure.main'
+alias luff='ssh root@80.80.229.148'
