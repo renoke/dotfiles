@@ -1,20 +1,10 @@
 export EDITOR="mate -w"
 export PAGER=most
 
-export PATH=$PATH:~/bin
-export PATH=$PATH:/usr/local/bin
-export PATH=$PATH:/usr/local/sbin
-export PATH=$PATH:/usr/local/git/bin
-export PATH=$PATH:/usr/local/bin/src
-export PATH=$PATH:/usr/local/mysql/bin
-export PATH=$PATH:/opt/local/bin
-export PATH=$PATH:/opt/local/sbin
-export PATH=$PATH:~/Applications/narwhal/bin
-export PATH=$PATH:/usr/local/nginx/sbin
-
-export PATH=$PATH:/Users/Renaud/.gem/ruby/1.8/bin
+export PATH=$PATH:/Users/renaudkern/Developer/.rvm/bin
+export PATH=$PATH:/Users/renaudkern/Developer/bin
 
 export HISTCONTROL=erasedups
-export HISTSIZE=10000
+export HISTSIZE=1000
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
