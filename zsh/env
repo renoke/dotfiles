@@ -1,5 +1,4 @@
 export EDITOR="mate -w"
-export PAGER=most
 
 export PATH=$PATH:/Users/renaudkern/Developer/.rvm/bin
 export PATH=$PATH:/Users/renaudkern/Developer/bin
