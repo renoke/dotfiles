@@ -48,3 +48,17 @@ WORDCHARS=${WORDCHARS//[&=\/;\!#%\{]}
 
 bindkey -e
 
+MANPATH="~/Developer/share/man:$MANPATH"; export MANPATH
+CFLAGS="-I~/Developer/include"; export CFLAGS
+CPPFLAGS="-I~/Developer/include"; export CPPFLAGS
+CXXFLAGS="-I~/Developer/include"; export CXXFLAGS
+LDFLAGS="-L~/Developer/lib"; export LDFLAGS
+NODE_PATH="~/Developer/lib/node"; export NODE_PATH
+
+export CONFIGURE_ARGS="--with-cflags='$CFLAGS' --with-ldflags='$LDFLAGS'"
+
+export rvm_path=~/Developer/.rvm
+if [[ -s ~/Developer/.rvm/scripts/rvm ]] ; then
+  source ~/Developer/.rvm/scripts/rvm
+fi
+

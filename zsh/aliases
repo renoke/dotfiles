@@ -1,6 +1,6 @@
 # One letter
 alias g="git status"
-alias d='mate ~/bin/dotfiles'
+alias d='mate ~/Developer/dotfiles'
 alias l='ls -lAh'
 alias m='mate . &'
 alias z='cd ~/Development/zena/zena'
@@ -52,14 +52,6 @@ alias migrate='rake db:migrate db:test:clone db:fixtures:load'
 alias fixture='rake db:fixtures:load'
 alias reset='rake db:migrate:reset'
 
-# Postgresql
-alias start_pg='sudo launchctl stop org.postgresql.postmaster'
-alias stop_pg='sudo launchctl start org.postgresql.postmaster'
-
-# Nginx
-alias start_nginx='sudo /usr/local/sbin/nginx'
-alias stop_nginx='sudo /usr/local/sbin/nginx -s stop'
-alias reload_nginx='suod /usr/local/sbin/nginx -s relaod'
 
 # Divers
 alias slice='ssh renoke@174.143.24.252'

@@ -1,9 +1,5 @@
 export EDITOR="mate -w"
 
-export PATH=$PATH:/Users/renaudkern/Developer/.rvm/bin
 export PATH=$PATH:/Users/renaudkern/Developer/bin
-
-export HISTCONTROL=erasedups
-export HISTSIZE=1000
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
