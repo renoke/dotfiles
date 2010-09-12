@@ -2,4 +2,7 @@ export EDITOR="mate -w"
 
 export PATH=$PATH:/Users/renaudkern/Developer/bin
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+export rvm_path=~/Developer/.rvm
+if [[ -s ~/Developer/.rvm/scripts/rvm ]] ; then
+  source ~/Developer/.rvm/scripts/rvm
+fi
