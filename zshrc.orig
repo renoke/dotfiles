@@ -1,7 +1,0 @@
-# Symlink to this file from ~/.zshrc
-# You should also symlink ~/.zshenv to zsh/env in this directory
-
-. ~/bin/dotfiles/zsh/config
-. ~/bin/dotfiles/zsh/aliases
-
-if [ -s ~/.rvm/scripts/rvm ] ; then source ~/.rvm/scripts/rvm ; fi
