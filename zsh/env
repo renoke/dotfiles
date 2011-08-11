@@ -19,6 +19,15 @@ export ZSH_THEME="robbyrussell"
 # Uncomment following line if you want to disable autosetting terminal title.
 # export DISABLE_AUTO_TITLE="true"
 
+MANPATH="/Users/renaudkern/Developer/share/man:$MANPATH"; export MANPATH
+CFLAGS="-I/Users/renaudkern/Developer/include"; export CFLAGS
+CPPFLAGS="-I/Users/renaudkern/Developer/include"; export CPPFLAGS
+CXXFLAGS="-I/Users/renaudkern/Developer/include"; export CXXFLAGS
+LDFLAGS="-L/Users/renaudkern/Developer/lib"; export LDFLAGS
+NODE_PATH="~/Developer/lib/node"; export NODE_PATH
+
+export CONFIGURE_ARGS="--with-cflags='$CFLAGS' --with-ldflags='$LDFLAGS'"
+
 export EDITOR="mate -w"
 
 export PATH=/Users/renaudkern/Developer/share/python:/Users/renaudkern/Developer/bin:/Users/renaudkern/Developer/sbin:/Users/renaudkern/Developer/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/renaudkern/Developer/lib/node:/Users/renaudkern/Developer/typesafe-stack/bin
